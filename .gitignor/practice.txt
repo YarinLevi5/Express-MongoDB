@@ -1,0 +1,39 @@
+Create a node project.-done
+Add express, nodemon add the needded scripts for starting (dev, start etc.)-done
+create node server `express`-done
+
+start the serever **ONLY** if the DB connected.-done
+
+with mongoose create 2 models - student, grades-done
+Student needs to have name:string, grade:number, age:number -done
+all of those fields are required (mongoose validation)-done
+Grade needs to have student_id: string, grade: number-done
+
+Add route for adding a new students to the DB (app.get)-done
+Add route to get student by name.-done
+Add route for getting all studetns.-done
+Add route to add grade for a user-done
+Add route to delete stduend by name-done
+Add route to delete stduend by id.-done
+
+Use all of this routes in the index.html page.-done
+use the get all student with `fetch`-done
+use the get student by name with `$.get`-done
+use the get student by name with `fetch`-done
+Add route to delete stduend by name `fetch`-done
+Add route to delete stduend by id: `$.ajax -` (you have an explaination how to do it here)
+
+https://stackoverflow.com/questions/2153917/how-to-send-a-put-delete-request-in-jquery/2153931 -done
+
+Add a route that show our top grade. `fetch`-done
+
+To the public folder add `index.html`,
+
+Add a readme.md file to your project and explain to the next developer all the commands and depencies you installed and what it does.
+Add to it each response from the preview from the network tab.-done
+
+Bonus: (this is the same bonus from before, none of you did it so im adding it again :) )
+Create a middlewere that write down each incomming request to the server in a json file (each request as a json object)
+Hint(app.use())
+
+Good luck
